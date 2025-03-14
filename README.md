@@ -12,48 +12,82 @@ Ministry of Defence
 
 ## Idea
 1.Role-Based Access System
+
 -> Admin Panel → Manage vacancies, interviewers, and questions
+
 -> Interview Panel (Experts) → Select/customize questions, rate responses
+
 -> Candidates → Participate in AI-driven/mock/live interviews
 
 2.Smart Questioning System
+
 AI-Powered Question Selection:
 
+
 Ice-breaking → General discussion → Techno-managerial questions
+
 Adaptive difficulty based on candidate performance
+
 Questions fetched dynamically from job-specific database
+
 -> Question Types:
 
+
 Multiple-Choice Questions (MCQs)
+
 Descriptive/Text-based Answers
+
 Scenario-based / Problem-Solving
+
 Behavioral Questions (HR-based)
+
 -> Question Relevance Matching:
 
+
 NLP-based expertise analysis to ensure questions align with the candidate’s background
+
 3. AI-Powered Response Evaluation
+
 -> Candidate Answer Analysis:
 
+
 Natural Language Processing (NLP) & Machine Learning evaluate clarity, relevance, depth
+
 AI checks grammar, coherence, and logical reasoning
+
 Experts rate responses for accuracy
+
 -> Scoring System:
 
+
 Weighted AI Score + Expert Score
+
 Real-time feedback for improvement
+
 -> Live AI Feedback:
 
+
 AI suggests how to improve answers in mock interviews
+
 AI-driven speech & sentiment analysis
+
 4. Realistic Boardroom Experience
+
 -> Live Video Interviews (WebRTC / Zoom API)
+
 -> AI Avatar-Based Mock Interviews
+
 -> Real-time Transcription & Answer Grading (Google Speech-to-Text / Whisper AI)
+
 -> Emotion & Tone Analysis (IBM Watson / Google NLP)
 
+
 5.Post-Interview Analytics & Reporting
+
 -> Detailed Performance Report for Candidates
+
 -> Expert Questioning Analysis (Ensuring Fairness & Relevance)
+
 -> Data Dashboard with Insights
   
 
@@ -66,17 +100,25 @@ AI-driven speech & sentiment analysis
 
 ## Technology Stack
 Frontend: React.js / Angular / Vue.js
+
 Backend: Node.js / Django / Flask
+
 Database: MySQL / PostgreSQL / MongoDB
+
 AI/NLP: OpenAI API, Google NLP, IBM Watson
+
 Video Integration: WebRTC / Zoom SDK
 
 
 
 ## Dependencies
 1.react-router-dom → For navigation in React
+
 2.axios → For handling API requests
+
 3.socket.io-client → For real-time communication
+
 4.tailwindcss → For styling the UI
+
 5.chart.js → For interview performance graphs
 
